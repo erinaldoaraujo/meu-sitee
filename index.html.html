@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Web</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+    <style>
+
+body {
+         background-color: white;
+        
+        }
+
+        header {
+            background-color: #03658C;
+            color: white;
+            text-align: center;
+        }
+        
+
+        footer {
+            background-color: #03658C;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .carousel-caption h5{
+            font-size: 40px;
+            color: #F2E205;
+            text-shadow: 2px 2px 2px black;
+
+        }
+
+
+
+
+    
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-#03658C">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">GoViagem</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end bg-#03658C" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Pacotes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Taxas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contato
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-cart2"></i></a>
+                  </li>
+                </ul>
+            
+              </div>
+            </div>
+          </nav>
+          
+          <div>
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Viagem-em-família-Shutterstock-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Venha conhecer o Brasil com sua família</h5>
+              </div>
+          </div>
+
+        </header>
+
+        <section class="conteiner-fluid -bg-#8C8303 text-center p-2">
+            <h3>CONHEÇA NOSSOS PACOTES</h3>
+            <p>This card has supporting text below as a natural lead-in to additional content.</p>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/fernando-noronha.jpg" class="card-img-top" alt="Fernado de Noronha">
+                <div class="card-body bg-warning">
+                  <h5 class="card-title">Fernando de Noronha</h5>
+                  <h1 class="card-subtitle text-muted">R$5.499.90</h1>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reserva</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Em até 12x</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/praia-de-canoa-quebrada1.jpg" class="card-img-top" alt="Canoa Quebrada">
+                <div class="card-body bg-warning">
+                  <h5 class="card-title">Canoa Quebrada</h5>
+                  <h1 class="card-subtitle text-muted">R$4.499.90</h1>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <a href="#" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#exampleModal">Reserva</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Em até 12x</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/rio-de-janeiro1.jpg" class="card-img-top" alt="Rio de Janeiro">
+                <div class="card-body bg-warning">
+                  <h5 class="card-title">Rio de Janeiro</h5>
+                  <h1 class="card-subtitle text-muted">R$4.129.90</h1>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <a href="#" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#exampleModal">Reserva</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Em até 12x</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br>
+
+    <footer class="bg-#03658C text-white py-3">
+        <p><span></span>Desenvolvido por Erinaldo Oliveira</p>
+        <script>
+            document.getElementById("currentYear").textContent = new Date().getFullYear();
+        </script>
+    </footer>
+
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</body>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Suas compras</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        Produto adicionado ao carrinho!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+          <a href="checkout.html" type="button" class="btn btn-success">Finalizar a compra</a>
+          <button type="button" class="btn btn-success"
